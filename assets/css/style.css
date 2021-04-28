@@ -2,6 +2,20 @@
 html *{
   -webkit-font-smoothing: antialiased;
 }
+#bst
+{
+  margin-top: 35px;
+  display: inline-block;
+  background-color: #0696be;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+  font-size: medium;
+}
+#bst strong{
+  color: #000;
+  font-size: large;
+}
 body {
   color: #444;
   font-family: "monospace";
@@ -386,8 +400,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav-toggle i {
   margin-top: 18px ;
-  float: right;
+ /* margin-left: 25%;*/
   color: #064e77;
+  float: right;
 
 }
 
